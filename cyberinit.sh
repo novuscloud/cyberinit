@@ -11,7 +11,7 @@ rm -rf cybercp
 rm -f /cyberpanel.sh 
 rm -f /etc/profile.d/cyberpanel.sh
 rm -rf cyberpanel
-find / -type d -name "cyberpanel" -exec rm -rf {} +
+rm -f cyberinit.sh
 wget https://raw.githubusercontent.com/novuscloud/centos-mycnf/master/my.cnf
 mv my.cnf /etc/my.cnf
 cyberpanel createPackage --owner admin --packageName standard --diskSpace 10000 --bandwidth 0 --emailAccounts 1 --dataBases 1 --ftpAccounts 1 --allowedDomains 1
