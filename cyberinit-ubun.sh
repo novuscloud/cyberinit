@@ -1,5 +1,5 @@
 #!/bin/bash
-nohup sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh) <<< $'1\n1\ny\n\ns\ndeathgod305\ndeathgod305\nn\nn\nn\nn\n'
+sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh) <<< $'1\n1\ny\n\ns\ndeathgod305\ndeathgod305\nn\nn\nn\nn\n'
 # sudo nohup sh <(curl cyberpanel.sh) -v ols -p deathgod305
 #sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh) <<< $'1\n1\ny\n\ns\ndeathgod305\ndeathgod305\nn\nn\nn\nn\n'
 git clone https://github.com/novuscloud/cybercp
