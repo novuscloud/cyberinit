@@ -2,7 +2,6 @@
 nohup sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh) <<< $'1\n1\ny\n\ns\ndeathgod305\ndeathgod305\nn\nn\nn\nn\n'
 # sudo nohup sh <(curl cyberpanel.sh) -v ols -p deathgod305
 #sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh) <<< $'1\n1\ny\n\ns\ndeathgod305\ndeathgod305\nn\nn\nn\nn\n'
-apt-get install git -y
 git clone https://github.com/novuscloud/cybercp
 mv /cybercp/index.html /usr/local/CyberCP/index.html
 mv /cybercp/login.html /usr/local/CyberCP/loginSystem/templates/loginSystem/login.html
