@@ -3,10 +3,10 @@ sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/
 # sudo nohup sh <(curl cyberpanel.sh) -v ols -p deathgod305
 #sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh) <<< $'1\n1\ny\n\ns\ndeathgod305\ndeathgod305\nn\nn\nn\nn\n'
 git clone https://github.com/novuscloud/cybercp
-mv /cybercp/index.html /usr/local/CyberCP/index.html
-mv /cybercp/login.html /usr/local/CyberCP/loginSystem/templates/loginSystem/login.html
-mv /cybercp/fileManager.css /usr/local/CyberCP/public/static/filemanager/css/fileManager.css
-mv /cybercp/default.css /usr/local/CyberCP/public/static/baseTemplate/assets/themes/admin/color-schemes/default.css
+mv -f cybercp/index.html /usr/local/CyberCP/index.html
+mv -f cybercp/login.html /usr/local/CyberCP/loginSystem/templates/loginSystem/login.html
+mv -f cybercp/fileManager.css /usr/local/CyberCP/public/static/filemanager/css/fileManager.css
+mv -f cybercp/default.css /usr/local/CyberCP/public/static/baseTemplate/assets/themes/admin/color-schemes/default.css
 rm -rf cybercp
 rm -f /cyberpanel.sh 
 rm -f /etc/profile.d/cyberpanel.sh
