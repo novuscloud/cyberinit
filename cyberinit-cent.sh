@@ -23,23 +23,23 @@ cyberpanel createPackage --owner admin --packageName professional --diskSpace 15
 cyberpanel createPackage --owner admin --packageName premium --diskSpace 25000 --bandwidth 0 --emailAccounts 0 --dataBases 0 --ftpAccounts 0 --allowedDomains 0
 yum install rpl -y
 #php7.4
-rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp74/etc/php/7.4/litespeed/php.ini
-rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp74/etc/php/7.4/litespeed/php.ini
-rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp74/etc/php/7.4/litespeed/php.ini
+rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp74/etc/php.ini
+rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp74/etc/php.ini
+rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp74/etc/php.ini
 #php7.3
-rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp73/etc/php/7.3/litespeed/php.ini
-rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp73/etc/php/7.3/litespeed/php.ini
-rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp73/etc/php/7.3/litespeed/php.ini
+rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp73/etc/php.ini
+rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp73/etc/php.ini
+rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp73/etc/php.ini
 #php7.2
-rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp72/etc/php/7.2/litespeed/php.ini
-rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp72/etc/php/7.2/litespeed/php.ini
-rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp72/etc/php/7.2/litespeed/php.ini
+rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp72/etc/php.ini
+rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp72/etc/php.ini
+rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp72/etc/php.ini
 #php7.1
-rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp71/etc/php/7.1/litespeed/php.ini
-rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp71/etc/php/7.1/litespeed/php.ini
-rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp71/etc/php/7.1/litespeed/php.ini
+rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp71/etc/php.ini
+rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp71/etc/php.ini
+rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp71/etc/php.ini
 #php7.0
-rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp70/etc/php/7.0/litespeed/php.ini
-rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp70/etc/php/7.0/litespeed/php.ini
-rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp70/etc/php/7.0/litespeed/php.ini
+rpl -w "upload_max_filesize = 2M" "upload_max_filesize = 50M" /usr/local/lsws/lsphp70/etc/php.ini
+rpl -w "; max_input_vars = 1000" "max_input_vars = 12000" /usr/local/lsws/lsphp70/etc/php.ini
+rpl -w "memory_limit = 128M" "memory_limit = 700M" /usr/local/lsws/lsphp70/etc/php.ini
 reboot
